@@ -5,6 +5,7 @@
 
 * {
   box-sizing: border-box;
+  max-width: auto;
 }
 #navigation {
   position: relative;
@@ -43,6 +44,7 @@
 }
 img.zeppelin {
   margin-top: 80px;
+  max-width: -webkit-fill-available
 }
 .clock {
     position: absolute;
@@ -53,6 +55,8 @@ img.zeppelin {
     font-size: 50px;
     font-family: Orbitron;
     letter-spacing: 7px;
+    top: 360px;
+    margin-top: 5px;
 }
 section h2 {
   text-align: center;
@@ -231,6 +235,7 @@ form {
   color: #fff;
   font-size: 15px;
   border-radius: 3px;
+  margin-left: 200px;
 }
 .contact-form-button-submit:hover,
 .contact-form-button-submit:focus {

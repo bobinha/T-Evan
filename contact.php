@@ -21,7 +21,7 @@
 
         $mail->setFrom($email, $name); // por restrições do Google, o e-mail pode chegar com o remetente iagosilvany@gmail.com
         $mail->AddReplyTo($email, $name); // mas pelo menos ao responder, podemos direcioná-los ao e-mail correto
-        $mail->addAddress('iagosilvany@hotmail.com', 'Iago Oliveira');
+        $mail->addAddress('evanforgotlastone1@hotmail.com', 'Evandro Marinho');
         $mail->Subject = 'Novo contato no T-Evan!';
         $mail->Body = 'Chegou um novo contato no site T-Evan, confira:<br><br>'.$msg;
         $mail->IsHTML(true);
